@@ -1,4 +1,4 @@
-(module SKY1330-085LF (layer F.Cu) (tedit 5EDF0A17)
+(module SMP1330-085LF (layer F.Cu) (tedit 5F0416D7)
   (solder_paste_ratio -0.02)
   (attr smd)
   (fp_text reference D** (at 0 1.4605) (layer F.SilkS) hide
@@ -7,12 +7,12 @@
   (fp_text value SKY1330-085LF (at 0 -0.889) (layer F.Fab)
     (effects (font (size 0.50038 0.29972) (thickness 0.0762)))
   )
-  (fp_line (start 1 -1) (end 1 1) (layer F.SilkS) (width 0.1778))
-  (fp_line (start -1 -1) (end 1 -1) (layer F.SilkS) (width 0.1778))
-  (fp_line (start -1 1) (end -1 -1) (layer F.SilkS) (width 0.1778))
   (fp_line (start 1 1) (end -1 1) (layer F.SilkS) (width 0.1778))
+  (fp_line (start -1 1) (end -1 -1) (layer F.SilkS) (width 0.1778))
+  (fp_line (start -1 -1) (end 1 -1) (layer F.SilkS) (width 0.1778))
+  (fp_line (start 1 -1) (end 1 1) (layer F.SilkS) (width 0.1778))
   (pad 1 smd rect (at 0.875 0) (size 0.55 0.27) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -0.875 0) (size 0.55 0.27) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at -0.875 0) (size 0.55 0.27) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd custom (at 0 -0.1) (size 0.5 1.5) (layers F.Cu F.Paste F.Mask)
     (options (clearance outline) (anchor rect))
     (primitives
