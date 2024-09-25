@@ -1,0 +1,126 @@
+(footprint "GSG-HEADER-NOMARK-1x2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "CONN")
+	(property "Reference" "P80"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "cd62c206-6cbd-4219-87a2-c27794cc0759")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "SHIELD"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "08ffa5ff-eebc-45f2-8e95-e5256a9a4ff8")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Footprint" "hackrf:GSG-HEADER-NOMARK-1x2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af1c9aad-1005-4652-aa5f-b3fa4e5226e9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6c901dc-e963-447b-b247-a25628e0149c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "707cf83c-9f92-49bb-80b1-ca636d3fcc28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -1.27)
+		(end -2.54 1.27)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c2aeca4-b17b-457d-a1de-756b393bab58")
+	)
+	(fp_line
+		(start -2.54 -1.27)
+		(end 2.54 -1.27)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16fb3c3f-0857-4271-8866-60c9b8ba18d8")
+	)
+	(fp_line
+		(start 2.54 -1.27)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e38ddfc-5780-4637-ac8a-79c40e81ae62")
+	)
+	(fp_line
+		(start 2.54 1.27)
+		(end -2.54 1.27)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7e46161-37b2-428a-9c8d-bccc7b0ac24a")
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(die_length 0.08382)
+		(thermal_bridge_angle 45)
+		(uuid "7b326cca-7236-48d2-8040-0abc720a6794")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(die_length 0.06096)
+		(uuid "536d2049-26af-4107-98b5-0e06c41f556e")
+	)
+)

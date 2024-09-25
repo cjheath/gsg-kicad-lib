@@ -1,0 +1,85 @@
+(footprint "GSG-TESTPOINT-30MIL-MASKONLY"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "TESTPOINT-30MIL-MASKONLY"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5433e026-2d5d-4b1e-a2e4-a89c70d6b967")
+		(effects
+			(font
+				(size 0.381 0.381)
+				(thickness 0.09525)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f32609bd-6295-4b02-abdd-58a229cff7e8")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Footprint" "hackrf:GSG-TESTPOINT-30MIL-MASKONLY"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "452cab76-6b46-4576-afb8-77ff5c9007b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "261838eb-377b-4a6e-b51a-e3fea3028538")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f934d424-5ef6-4767-bb3e-7110b45da77d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3fb2bbef-a2af-4c2f-aa6e-3ca55ca3ec2a")
+	)
+	(pad "" smd circle
+		(at 0 0)
+		(size 0.762 0.762)
+		(layers "F.Mask")
+		(die_length 0.1651)
+		(uuid "c9e79940-8489-405d-b5da-5a71a955e0ba")
+	)
+)

@@ -1,0 +1,113 @@
+(footprint "GSG-TEST-POINT-S1751-46R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "J10"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "40c60128-6fe3-4828-820e-6cc6392ab0fc")
+		(effects
+			(font
+				(size 1.00076 1.00076)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "GND_CLIP"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "283a6c1c-6c3d-4973-9a55-5fd7078be9a9")
+		(effects
+			(font
+				(size 1.00076 1.00076)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Footprint" "hackrf:GSG-TEST-POINT-S1751-46R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbef74dc-b955-4d59-b78c-a3a5d33cbe75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c132699f-3f32-4cf9-b5b7-139f91f03009")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e97c468d-3ed7-4a41-93be-2545fa93e702")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1.2)
+		(end -2 1.2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8368c53a-4ed8-4968-8f64-939f3f49c3d6")
+	)
+	(fp_line
+		(start -2 1.2)
+		(end 2 1.2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "364b4363-3e39-438f-b173-60e722c93692")
+	)
+	(fp_line
+		(start 2 -1.2)
+		(end -2 -1.2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48f1e992-211e-4fd1-919f-1b41631a4f08")
+	)
+	(fp_line
+		(start 2 1.2)
+		(end 2 -1.2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb56e42e-4eb6-4656-832b-cfe1694e44a2")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 3.65 2.05)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e1aba491-7d0f-49b1-ae80-2b7ca9aaa2f5")
+	)
+)
