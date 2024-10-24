@@ -10455,7 +10455,7 @@
 				)
 			)
 		)
-		(property "Value" "CLA4611 Limiter Diode"
+		(property "Value" "CLA4611-085LF"
 			(at 0 -2.54 0)
 			(effects
 				(font
